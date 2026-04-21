@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" width="600" height="220">
+  <style>
+    .title { font-family: 'Great Vibes', 'Brush Script MT', cursive; font-size: 110px; fill: currentColor; }
+    .sub { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; letter-spacing: 14px; fill: currentColor; }
+  </style>
+  <text x="300" y="120" text-anchor="middle" class="title">Clementine's</text>
+  <text x="300" y="160" text-anchor="middle" class="sub">MAISON</text>
+  <g transform="translate(300 185)">
+    <circle cx="0" cy="0" r="12" fill="#e67a2b"/>
+    <path d="M-60 4 Q-30 -10 0 0 Q30 -10 60 4" stroke="#3d5c3a" stroke-width="2" fill="none"/>
+    <path d="M-45 6 l-6 -10 M-30 8 l-4 -12 M30 8 l4 -12 M45 6 l6 -10" stroke="#3d5c3a" stroke-width="2" fill="none"/>
+  </g>
+</svg>
