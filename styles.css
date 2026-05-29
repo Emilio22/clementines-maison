@@ -319,10 +319,10 @@ img { max-width: 100%; display: block; }
 .story-image { position: relative; }
 .story-image img {
   width: 100%;
-  aspect-ratio: 4/5;
-  object-fit: cover;
+  height: auto;
   border-radius: 2px;
   filter: saturate(0.92) contrast(1.02);
+  display: block;
 }
 .story-image-accent {
   position: absolute;
