@@ -6,22 +6,22 @@
 <title>Menu — Clementine's Maison</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 <header class="site-header" id="siteHeader">
   <div class="nav-wrap">
     <a href="index.html" class="brand">
-      <img src="assets/clementinesmaison_logo.jpg" alt="Clementine's Maison" class="brand-logo" />
+      <img src="assets/clementines_logo_nobg.png" alt="Clementine's Maison" class="brand-logo" />
     </a>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
       <span></span><span></span><span></span>
     </button>
     <nav class="main-nav" id="mainNav">
-      <a href="index.html#about">About</a>
+      <a href="index.html#story">Our Story</a>
       <a href="menu.html" class="active">Menu</a>
-      <a href="index.html#experience">Experience</a>
+      <a href="index.html#chef">The Chef</a>
       <a href="index.html#visit">Visit</a>
       <a href="index.html#reserve" class="btn btn-outline btn-sm">Reserve</a>
     </nav>
@@ -30,18 +30,30 @@
 
 <section class="page-hero">
   <div class="page-hero-media">
-    <img src="https://images.pexels.com/photos/1854652/pexels-photo-1854652.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="" />
+    <img src="assets/steaks_grill.avif" alt="" />
     <div class="hero-overlay"></div>
   </div>
   <div class="page-hero-content">
     <p class="eyebrow light">The Menu</p>
     <h1>From the <span class="script">Hearth</span></h1>
-    <p>Prime cuts, fresh seafood, and seasonal plates — all touched by wood-fire.</p>
+    <p>French technique, Italian comfort, Midwestern warmth, coastal soul.</p>
   </div>
 </section>
 
 <section class="full-menu">
   <div class="container">
+
+    <div class="menu-section signature-callout">
+      <div class="signature-callout-img">
+        <img src="assets/beef_wellington.avif" alt="Beef Wellington" />
+      </div>
+      <div class="signature-callout-body">
+        <p class="eyebrow">House Specialty</p>
+        <h2>Beef Wellington <span class="for-two">For Two</span></h2>
+        <p>Center-cut filet, wild mushroom duxelles, prosciutto, golden puff pastry. Carved tableside.</p>
+        <span class="price-lg">$118</span>
+      </div>
+    </div>
 
     <div class="menu-section">
       <div class="menu-section-head">
@@ -59,7 +71,7 @@
           <span class="dots"></span><span class="price">$21</span>
         </div>
         <div class="menu-row">
-          <div class="menu-row-main"><h3>Steak Tartare</h3><p>Hand-cut beef tenderloin, crispy capers, quail yolk, toasted brioche.</p></div>
+          <div class="menu-row-main"><h3>Steak Tartare</h3><p>Hand-cut tenderloin, crispy capers, quail yolk, toasted brioche.</p></div>
           <span class="dots"></span><span class="price">$19</span>
         </div>
         <div class="menu-row">
@@ -131,9 +143,35 @@
 
     <div class="menu-section">
       <div class="menu-section-head">
+        <h2>Handmade Pasta</h2>
+        <span class="rule"></span>
+        <p>Rolled, cut, and folded in-house. Italian comfort, the Weiss way.</p>
+      </div>
+      <div class="menu-list">
+        <div class="menu-row">
+          <div class="menu-row-main"><h3>Tagliatelle al Tartufo</h3><p>Hand-cut ribbons, black truffle, brown butter, parmigiano.</p></div>
+          <span class="dots"></span><span class="price">$38</span>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><h3>Lobster Ravioli</h3><p>Maine lobster, mascarpone, tarragon cream, lemon zest.</p></div>
+          <span class="dots"></span><span class="price">$42</span>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><h3>Pappardelle Bolognese</h3><p>Slow-braised short rib, San Marzano, fresh basil.</p></div>
+          <span class="dots"></span><span class="price">$34</span>
+        </div>
+        <div class="menu-row">
+          <div class="menu-row-main"><h3>Cacio e Pepe</h3><p>Tonnarelli, pecorino romano, cracked black pepper.</p></div>
+          <span class="dots"></span><span class="price">$28</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <div class="menu-section-head">
         <h2>From the Sea</h2>
         <span class="rule"></span>
-        <p>Fresh daily, simply prepared.</p>
+        <p>Fresh daily. A nod to our Florida Keys years.</p>
       </div>
       <div class="menu-list">
         <div class="menu-row">
@@ -183,6 +221,10 @@
       </div>
       <div class="menu-list">
         <div class="menu-row">
+          <div class="menu-row-main"><h3>Bananas Flambé</h3><p>Tableside · rum, brown sugar, vanilla bean ice cream.</p></div>
+          <span class="dots"></span><span class="price">$16</span>
+        </div>
+        <div class="menu-row">
           <div class="menu-row-main"><h3>Clementine Crème Brûlée</h3><p>Torched sugar, candied zest, shortbread.</p></div>
           <span class="dots"></span><span class="price">$13</span>
         </div>
@@ -213,8 +255,8 @@
 <footer class="site-footer">
   <div class="container footer-grid">
     <div class="footer-brand">
-      <img src="assets/clementinesmaison_logo.jpg" alt="Clementine's Maison" />
-      <p>Wood-fire steakhouse at the Lake of the Ozarks. Family owned, family run.</p>
+      <img src="assets/clementines_logo_nobg.png" alt="Clementine's Maison" />
+      <p>A family-owned wood-fire maison at the Lake of the Ozarks. Named for Clementine Churchill — built around a table.</p>
     </div>
     <div>
       <h4>Visit</h4>
